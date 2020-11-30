@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "cppdbg",
+        "request": "launch",
+        "name": "Launch Program",
+        "preLaunchTask": "Build from Makefile",
+        "cwd":"${workspaceFolder}",
+        "program": "${workspaceFolder}\\read_qcow2",
+        "args": [ 
+            "old_home_fs.qcow2" 
+        ],
+        "linux": {
+          "MIMode": "gdb",
+          "miDebuggerPath": "/usr/bin/gdb"
+        }
+      }
+    ]
+  }

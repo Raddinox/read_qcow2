@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/*.qcow2": true,
+        "**/read_qcow2": true
+    }
+}
